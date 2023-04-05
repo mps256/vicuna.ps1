@@ -13,11 +13,28 @@ This is a PowerShell script that automates the process of setting up and running
 
 **Note:** The script requires a minimum of 10GB of RAM (slow), and 32GB+ (medium to fast speeds) is recommended.
 
+ `speed = 2 * log2(ram_gb / 10) + 1`
+
+            |       Speed
+            |   Slow   Medium    Fast 
+         -----------------------------
+            |         
+        3   |          
+            |          
+        2   |        * 
+            |    *     
+        1   | *        
+            |_____________________________
+                 10GB      32GB+       RAM
+
+- This formula takes the amount of computer memory (RAM) as an input and calculates a number that represents the speed of a program. The more RAM you have, the faster the program will run.
+
 ## Automatic installation (Recommended)
-(Right-Click your mouse to paste the commands)
-1. Press `Windows` + `R` and then type `powershell` and hit enter
-2. `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` and press `Y` and hit enter.
-3. `irm bit.ly/autovicuna | iex` and hit enter.
+- To automatically install the program, follow these steps (Right-Click your mouse to paste the commands):
+
+1. Press `Windows` + `R`, type `powershell`, and hit enter.
+2. Type `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`, press Y, and hit enter.
+3. Type `irm bit.ly/autovicuna | iex` and hit enter.
 
 ## Manual installation (Optional)
 1. Download the `vicuna-cpu.ps1` script to your computer.
