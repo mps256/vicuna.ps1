@@ -23,7 +23,7 @@ try {
 
 # Download llama.cpp
 try {
-    Invoke-WebRequest -Uri "https://github.com/ggerganov/llama.cpp/releases/download/v1.1.3/llama-master-1.1.3-bin-win-avx-x64.zip" -OutFile "$folderPath\llama.zip"
+    Invoke-WebRequest -Uri "https://github.com/ggerganov/llama.cpp/releases/download/master-cd7fa95/llama-master-cd7fa95-bin-win-avx-x64.zip" -OutFile "$folderPath\llama.zip"
     Write-Host "Downloaded llama.cpp to: $folderPath" -ForegroundColor Green
 } catch {
     Write-Host "Failed to download llama.cpp" -ForegroundColor Red
