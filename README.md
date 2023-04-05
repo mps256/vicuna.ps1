@@ -15,7 +15,7 @@ This is a PowerShell script that automates the process of setting up and running
 
 ## Automatic installation (Recommended)
 1. `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
-2. `irm gg.gg/autovicuna | iex`
+2. `irm bit.ly/autovicuna | iex`
 
 ## Manual installation (Optional)
 1. Download the `vicuna-cpu.ps1` script to your computer.
