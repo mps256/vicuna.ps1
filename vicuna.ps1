@@ -60,4 +60,6 @@ try {
 try {
     Start-Process -FilePath "$folderPath\VICUNA.bat"
     Write-Host "Started VICUNA batch file" -ForegroundColor Green
-} catch
+} catch {
+Write-Host "Failed to start VICUNA batch file" -ForegroundColor Red
+}
