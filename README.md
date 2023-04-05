@@ -11,11 +11,13 @@ This is a PowerShell script that automates the process of setting up and running
 - Windows operating system
 - PowerShell
 
-**Note:** The script requires a minimum of 16GB of RAM, and 32GB+ is recommended.
+**Note:** The script requires a minimum of 10GB of RAM (slow), and 32GB+ (medium to fast speeds) is recommended.
 
 ## Automatic installation (Recommended)
-1. `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
-2. `irm bit.ly/autovicuna | iex`
+(Right-Click your mouse to paste the commands)
+1. Press `Windows` + `R` and then type `powershell` and hit enter
+2. `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` and press `Y` and hit enter.
+3. `irm bit.ly/autovicuna | iex` and hit enter.
 
 ## Manual installation (Optional)
 1. Download the `vicuna-cpu.ps1` script to your computer.
@@ -51,7 +53,7 @@ Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin 
 Advisors (alphabetical order):
 Joseph E. Gonzalez, Ion Stoica, Eric P. Xing
 [LMSYS](https://vicuna.lmsys.org/)
-Special thanks to [SpreadSheetWarrior](https://www.youtube.com/@SpreadSheetWarrior) for their tutorial on running VICUNA on CPU.
+Special thanks to eachadea (Chad Ea-Nasir II) for their 4-bit quantized model and [SpreadSheetWarrior](https://www.youtube.com/@SpreadSheetWarrior) for their tutorial on running VICUNA on CPU.
 
 ## Acknowledgment
 We would like to thank Xinyang Geng, Hao Liu, and Eric Wallace from BAIR; Xuecheng Li, and Tianyi Zhang from Stanford Alpaca team for their insightful discussion and feedback. BAIR will have another blog post soon for a concurrent effort on their chatbot, Koala.
