@@ -1,8 +1,12 @@
-# Automatic installation script for Vicuna (CPU-only)
-
 ![VICUNA CPU Script](https://aeiljuispo.cloudimg.io/v7/https://s3.amazonaws.com/moonup/production/uploads/62d35f3ceaf3858ce253ab7a/uZ2jFNAjXfdBo6c6Yojmg.jpeg?w=200&h=200&f=face)
 
-This is a PowerShell script that automates the process of setting up and running VICUNA on a CPU (without a graphics card) using the llama.cpp library and a pre-trained ggml-vicuna-13b-4bit.bin model. The script downloads and extracts the required files, creates a batch file to run VICUNA, and creates a desktop shortcut to launch the batch file.
+# Automatic installation script for Vicuna (CPU-only)
+
+ Vicuna-13B is a free chatbot trained on user-shared conversations from ShareGPT, fine-tuned from the LLaMA model. It outperformed other models like OpenAI ChatGPT, Google Bard, LLaMA, and Stanford Alpaca in more than 90% of cases. 
+
+
+
+* This is a PowerShell script that automates the process of setting up and running VICUNA on a CPU (without a graphics card) using the llama.cpp library and a pre-trained ggml-vicuna-13b-4bit.bin model. The script downloads and extracts the required files, creates a batch file to run VICUNA, and creates a desktop shortcut to launch the batch file.
 
 - Linux and macOS scripts are currently being developed and will be available in the near future.
 
