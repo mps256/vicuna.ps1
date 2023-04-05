@@ -1,4 +1,5 @@
 # Print a message to the console
+Write-Host "Welcome to AutoVicuna! :)" -ForegroundColor Yellow
 Write-Host "Creating the VICUNA folder on C:\" -ForegroundColor Green
 
 # Set the folder path where the files will be downloaded
@@ -38,7 +39,7 @@ try {
 
 # Create a batch file to run VICUNA
 try {
-    Set-Content -Path "$folderPath\VICUNA.bat" -Value "@echo off`n$folderPath\llama-master-1.1.3-bin-win-avx-x64\llama.exe -b $folderPath\ggml-vicuna-13b-4bit.bin -n 1 -w 256 -h 256"
+    Set-Content -Path "$folderPath\VICUNA.bat" -Value 'title llama.cpp`n:start`nmain -i --interactive-first -r "### Human:" -t 8 --temp 0 -c 2048 -n -1 --ignore-eos --repeat_penalty 1.2 --instruct -m ggml-vicuna-13b-4bit.bin`npause`ngoto start'
     Write-Host "Created VICUNA batch file at: $folderPath" -ForegroundColor Green
 } catch {
     Write-Host "Failed to create VICUNA batch file" -ForegroundColor Red
