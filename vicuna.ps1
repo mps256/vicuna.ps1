@@ -95,7 +95,7 @@ $latestRelease = Invoke-RestMethod -Uri "https://api.github.com/repos/ggerganov/
 $avxVersions = @("avx-x64", "avx2-x64", "avx512-x64")
 
 # Display the available AVX versions and prompt the user to choose one
-Write-Host "[#] Pick your CPU AVX extension (AVX Recommended for most mortals)`n" -ForegroundColor Magenta
+Write-Host "`n[#] Pick your CPU AVX extension (AVX Recommended for most mortals)`n" -ForegroundColor Magenta
 for ($i = 0; $i -lt $avxVersions.Length; $i++) {
     Write-Host "$($i + 1). $($avxVersions[$i])" -ForegroundColor Cyan
 }
