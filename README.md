@@ -26,7 +26,7 @@
 3. Type `irm bit.ly/autovicuna | iex` and hit enter.
 
 ## Manual installation (Optional)
-1. Download the `vicuna-cpu.ps1` script to your computer.
+1. Download the `vicuna.ps1` script to your computer.
 2. Open PowerShell and navigate to the directory where the script is saved.
 3. Run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` to allow remote scripts.
 4. Run the script using the command `.\vicuna-cpu.ps1`.
