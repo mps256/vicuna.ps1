@@ -117,7 +117,7 @@ if(Test-Path -Path "$folderPath\$llamaVersionFilename") {
 } else {
     try {
         Invoke-WebRequest -Uri $llamaVersionUrl -OutFile "$folderPath\$llamaVersionFilename"
-        Write-Host "`n[#] Downloaded llama.cpp ($($latestRelease.tag_name)) ($avxVersion) to: $folderPath"
+        Write-Host "`n[#] Downloaded llama.cpp ($($latestRelease.tag_name)) ($avxVersion) to: $folderPath" -ForegroundColor Green
     } catch {
         Write-Host "`n[!] Failed to download llama.cpp ($($latestRelease.tag_name)) ($avxVersion)"
         Exit
