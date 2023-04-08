@@ -6,7 +6,7 @@
 
 
 
-* This is a PowerShell script that automates the process of setting up and running VICUNA on a CPU (without a graphics card) using the llama.cpp library and a pre-trained ggml-vicuna-13b-4bit.bin model. The script downloads and extracts the required files, creates a batch file to run VICUNA, and creates a desktop shortcut to launch the batch file.
+* This is a PowerShell script that automates the process of setting up and running VICUNA on a CPU (without a graphics card) using the llama.cpp library and a pre-trained GGML Vicuna model. The script downloads and extracts the required files, creates a batch file to run VICUNA, and creates a desktop shortcut to launch the batch file.
 
 
 - Linux and macOS scripts are currently being developed and will be available in the near future.
