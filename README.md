@@ -23,7 +23,7 @@
 
 1. Press `Windows` + `R`, type `powershell`, and hit enter.
 2. Type `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`, press Y, and hit enter.
-3. Type `irm bit.ly/autovicuna | iex` and hit enter.
+3. Type `irm bit.ly/vicuna_ps1 | iex` and hit enter.
 
 ## Manual installation (Optional)
 1. Download the `vicuna.ps1` script to your computer.
