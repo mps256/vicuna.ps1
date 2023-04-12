@@ -29,7 +29,7 @@
 1. Download the `vicuna.ps1` script to your computer.
 2. Open PowerShell and navigate to the directory where the script is saved.
 3. Run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` to allow remote scripts.
-4. Run the script using the command `.\vicuna-cpu.ps1`.
+4. Run the script using the command `.\vicuna.ps1`.
 5. Follow the on-screen instructions to complete the setup process.
 6. Once setup is complete, double-click the "VICUNA" shortcut on your desktop to run VICUNA.
 
